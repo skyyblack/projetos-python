@@ -1,9 +1,3 @@
-import array
-from doctest import DocTestRunner
-from operator import truediv
-import re
-from turtle import Turtle
-
 from pessoa import Leitor
 from livro import Livro
 

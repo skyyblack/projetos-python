@@ -1,57 +1,4 @@
-"""
-🧠 Exercício: Sistema de Tarefas com prioridades (versão evoluída)
 
-Você vai criar um programa de terminal de tarefas, tipo o que já fez, 
-mas com algumas melhorias.
-
-📌 Regras do sistema:
-
-Você vai trabalhar com uma lista de tarefas assim:
-
-tarefas = []
-
-Cada tarefa será um dicionário:
-
-{"nome": "estudar python", "feito": False, "prioridade": 1}
-⚙️ Funcionalidades obrigatórias:
-1. Adicionar tarefa
-
-O usuário digita:
-
-adicionar estudar python 2
-"estudar python" = nome
-2 = prioridade
-
-Salva assim:
-
-{"nome": "estudar python", "feito": False, "prioridade": 2}
-2. Listar tarefas
-
-Comando:
-
-listar
-
-Mostra assim:
-
-1. estudar python (prioridade 2) [PENDENTE]
-2. academia (prioridade 1) [FEITO]
-3. Marcar como feita
-
-Comando:
-
-feita 1
-
-Marca a tarefa como:
-
-"feito": True
-4. Remover tarefa
-
-Comando:
-
-remover 2
-
-Remove pelo índice.
-"""
 tarefas = []
 def listar(lista_tarefas):
          for x, i in enumerate(lista_tarefas):
@@ -116,6 +63,3 @@ while True:
             remover_tarefa(usuario_marcar_feita, tarefas)
         else:
             break
-
-    # if comando_usuario == 'feita' + comando_usuario.isdigit():
-    #     pass
