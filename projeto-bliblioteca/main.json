@@ -1,0 +1,26 @@
+[
+  {
+    "leitores": [
+      {
+        "nome": "matheus",
+        "idade": 20
+      },
+      {
+        "nome": "joao",
+        "idade": 19
+      }
+    ],
+    "livros": [
+      {
+        "titulo": "python",
+        "autor": "matheus",
+        "emprestado": true
+      },
+      {
+        "titulo": "santania",
+        "autor": "matheus",
+        "emprestado": false
+      }
+    ]
+  }
+]
