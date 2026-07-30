@@ -1,0 +1,37 @@
+INSERT INTO users (
+    first_name,
+    last_name,
+    email,
+    password_hash
+ )
+VALUES 
+(
+    "Edgar",
+    "Fabiano",
+    "Edgarfa@gmail.com",
+    "fabiano123@"
+  )
+  (
+    "Romario",
+    "Batista",
+    "romariob@gmail.com",
+    "cafecomleite"
+  )
+  (
+    "Cleiton",
+    "Chaves",
+    "leitoncha12@gmail.com",
+    "jesusachave12"
+  )
+  (
+    "William",
+    "Fabiano",
+    "willfabi@gmail.com",
+    "william12@"
+  )
+  (
+    "Anderson",
+    "Silva",
+    "andsilva@gmail.com",
+    "familiasucesso1@"
+  );

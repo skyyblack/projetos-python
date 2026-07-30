@@ -1,0 +1,3 @@
+UPDATE users AS u
+SET salary = FLOOR(RAND() * 2000) *3
+WHERE id BETWEEN 207 AND 212;
